@@ -1,0 +1,19 @@
+# Node
+node_modules/
+package-lock.json
+
+# Python
+python_agent/venv/
+__pycache__/
+*.pyc
+
+# Auth cache
+node_bot/.wwebjs_auth/
+node_bot/.wwebjs_cache/
+
+# Secrets
+python_agent/Google_Credentials.json
+chat_history.json
+
+# System
+.env
