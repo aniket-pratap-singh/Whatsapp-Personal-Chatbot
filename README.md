@@ -45,6 +45,7 @@ It can:
     ├── requirements.txt               # Python dependencies
 
 ⚙️ Setup Instructions
+    
     1. Clone the Repository:-
         git clone https://github.com/yourusername/Whatsapp-Personal-Chatbot.git
         cd Whatsapp-Personal-Chatbot
@@ -108,5 +109,6 @@ ________________________________________________________________________________
     Google APIs (Gmail + Classroom)
 
 📄 License
+
     MIT License.
     © 2025 [Aniket Pratap Singh]
