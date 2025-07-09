@@ -46,11 +46,13 @@ It can:
 
 ⚙️ Setup Instructions
     
-    1. Clone the Repository:-
+1. Clone the Repository:-
+   
         git clone https://github.com/yourusername/Whatsapp-Personal-Chatbot.git
         cd Whatsapp-Personal-Chatbot
 
-    2. Set Up the Python Backend
+2. Set Up the Python Backend
+   
         cd python_agent
         python -m venv venv
 
@@ -60,31 +62,36 @@ It can:
 
         pip install -r requirements.txt
         
-    3. Set Up the Node.js WhatsApp Bot
+3. Set Up the Node.js WhatsApp Bot
+   
         cd ../node_bot
         npm install whatsapp-web.js qrcode-terminal puppeteer
 
-    4. Google API Configuration
+4. Google API Configuration
+  
         Enable Gmail API and Google Classroom API from Google Cloud Console(https://console.cloud.google.com/welcome?inv=1&invt=Ab2Odw&project=vernal-house-465310-c1).
 
         Download the OAuth JSON file.
 
         Rename it to Google_Credentials.json and place it in the python_agent/ folder.
-
-    5. Create .env File in Whatsapp-Personal-Chatbot/
-        Inside the Whatsapp-Personal-Chatbot/, create a .env file:
+5. Create .env File in Whatsapp-Personal-Chatbot/
+   
+   Inside the Whatsapp-Personal-Chatbot/, create a .env file:
+   
             OPENROUTER_API_KEY=your_openrouter_api_key
             GROQ_API_KEY=your_groq_api_key
 
-    6. Start the Flask Backend
+7. Start the Flask Backend
+   
         cd python_agent
         python app.py
-        Flask will run on http://localhost:8000.
+   Flask will run on http://localhost:8000.
 
-    7. Start the WhatsApp Bot
+8. Start the WhatsApp Bot
+   
         cd ../node_bot
         node index.js
-        A QR code will be shown. Scan it using your WhatsApp (mobile app).
+   A QR code will be shown. Scan it using your WhatsApp (mobile app).
 
 The bot will only reply to your personal “Message Yourself” chat.
 
