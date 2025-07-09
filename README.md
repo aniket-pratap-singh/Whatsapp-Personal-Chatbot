@@ -65,7 +65,7 @@ It can:
         npm install whatsapp-web.js qrcode-terminal puppeteer
 
     4. Google API Configuration
-        Enable Gmail API and Google Classroom API from Google Cloud Console.
+        Enable Gmail API and Google Classroom API from Google Cloud Console(https://console.cloud.google.com/welcome?inv=1&invt=Ab2Odw&project=vernal-house-465310-c1).
 
         Download the OAuth JSON file.
 
