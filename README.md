@@ -90,13 +90,13 @@ The bot will only reply to your personal “Message Yourself” chat.
 
 📌 Example Commands
 
-Message Sent                                    |   	Response Behavior                                       |
-_________________________________________________________________________________________________________________
-gmail	                                        |   Replies with your 10 most recent emails                     |
-classroom                                       |   Replies with important class announcements (exams/quizzes)  |
-hello, how are you?(or any other message)       |	AI-powered response via LLM (Groq/OpenRouter)               |
-exit                                            |	Shuts down the Node.js bot (not Flask)                      |
-_________________________________________________________________________________________________________________
+    Message Sent                                    |   	Response Behavior                                       |
+    _________________________________________________________________________________________________________________
+    gmail	                                        |   Replies with your 10 most recent emails                     |
+    classroom                                       |   Replies with important class announcements (exams/quizzes)  |
+    hello, how are you?(or any other message)       |	AI-powered response via LLM (Groq/OpenRouter)               |
+    exit                                            |	Shuts down the Node.js bot (not Flask)                      |
+    _________________________________________________________________________________________________________________
 
 📚 Technologies Used
 
