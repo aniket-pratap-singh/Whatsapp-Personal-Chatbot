@@ -35,7 +35,7 @@ def get_response(entry):
 
 
     reply = response.choices[0].message.content
-    addon= '🤖:  '
+    addon= '🤖:  \n'
     reply = addon + reply.strip()
     return reply
 

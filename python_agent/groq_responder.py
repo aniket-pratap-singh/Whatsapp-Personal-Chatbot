@@ -38,7 +38,7 @@ def get_response(entry):
         response = requests.post(url, headers=headers, json=data)
         response.raise_for_status()
         reply = response.json()["choices"][0]["message"]["content"].strip()
-        return "🤖:  " + reply
+        return "🤖:  \n" + reply
     except requests.exceptions.RequestException as e:
         print("❌ Groq API Error:", e)
-        return "🤖: Sorry, I couldn't process that right now."
+        return "🤖 \n: Sorry, I couldn't process that right now."

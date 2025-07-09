@@ -28,7 +28,7 @@ def get_classroom_service():
     if not courses:
         return "No courses found."
 
-    class_response = "🤖: "
+    class_response = "🤖: \n"
     for course in courses:
         class_response = class_response + f"\n\n 📘 Course: {course['name']}\n"
         course_id = course['id']
@@ -71,7 +71,7 @@ def get_gmail_service():
 
     results = service.users().messages().list(userId='me', maxResults=10).execute()
     messages = results.get('messages', [])
-    gmail_response = "🤖: "
+    gmail_response = "🤖: \n"
     if not messages:
         return "No messages found."
     else:
