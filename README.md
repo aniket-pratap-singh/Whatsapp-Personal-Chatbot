@@ -1,4 +1,5 @@
-🤖 Whatsapp-Personal-Chatbot
+🤖 Whatsapp-Personal-Chatbot or call it as WassupAI🧞
+
 An AI-powered WhatsApp bot that lives inside your personal "Message Yourself" chat.
 
 It can:
