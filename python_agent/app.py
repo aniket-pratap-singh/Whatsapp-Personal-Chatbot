@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify
 import json
 import os
 from datetime import datetime
-from openrouter_responder import get_response
+from openrouter_responder import get_response as openrouter_responder
 from groq_responder import get_response as groq_get_response
 
 app = Flask(__name__)
